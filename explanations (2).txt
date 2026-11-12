@@ -1,0 +1,139 @@
+1. 
+╭──────────────────────╮
+│ antibioticContainers │
+╞══════════════════════╡
+│                  100 │
+╰──────────────────────╯
+Add the quantities on hand for items described as antibiotics to find the number of containers currently available.
+
+2. 
+╭───────────────╮
+│ volunteerName │
+╞═══════════════╡
+│ Gene Lewin    │
+╰───────────────╯
+Return volunteers whose recorded phone numbers do not begin with 2 and whose names do not end in Jones, excluding volunteers without a phone number.
+
+3.
+╭───────────────╮
+│ volunteerName │
+╞═══════════════╡
+│ George Brewer │
+╰───────────────╯
+Connect volunteers to their assigned tasks and return each volunteer once if the task type is transporting.
+
+4.
+╭────────────────────────────────╮
+│        taskDescription         │
+╞════════════════════════════════╡
+│ Prepare 100 food packages      │
+│ Take packages to the warehouse │
+╰────────────────────────────────╯
+Keep tasks that have no matching assignment and display their descriptions.
+
+5.
+╭─────────────────╮
+│ packageTypeName │
+╞═════════════════╡
+│ food and water  │
+╰─────────────────╯
+Follow each package type through its packages and contents to find items described as bottles, listing each matching type once.
+
+6.
+╭───────────────────────╮
+│    itemDescription    │
+╞═══════════════════════╡
+│ bottle of antibiotics │
+│ bottle of aspirin     │
+│ flashlight            │
+│ pack of bandages      │
+╰───────────────────────╯
+Find items with no matching package contents record and display their descriptions.
+
+7.
+╭────────────────────────────────╮
+│        taskDescription         │
+╞════════════════════════════════╡
+│ Prepare 100 water packages     │
+│ Prepare 20 children's packages │
+│ Prepare 5,000 packages         │
+╰────────────────────────────────╯
+Match tasks to assigned volunteers whose addresses end in NJ and display each matching task description once.
+
+8.
+╭───────────────╮
+│ volunteerName │
+╞═══════════════╡
+│ Chris Jordan  │
+│ Joan Simmons  │
+╰───────────────╯
+Return each volunteer once if an assignment began on or after January 1, 2021, and before July 1, 2021.
+
+9.
+╭───────────────╮
+│ volunteerName │
+╞═══════════════╡
+│ Gerry Banks   │
+│ Julie White   │
+╰───────────────╯
+Trace volunteers through their packing tasks to packages containing spam and list each matching volunteer once.
+
+10.
+╭─────────────────╮
+│ itemDescription │
+╞═════════════════╡
+│ Baby formula    │
+╰─────────────────╯
+Multiply an item's unit value by its quantity in a single package and return descriptions where that amount equals $100.
+
+11.
+╭────────────────┬────────────────╮
+│ taskStatusName │ volunteerCount │
+╞════════════════╪════════════════╡
+│ open           │              4 │
+│ closed         │              3 │
+│ ongoing        │              2 │
+│ pending        │              1 │
+╰────────────────┴────────────────╯
+Count each volunteer once within each task status, including statuses with no volunteers, and sort the counts from highest to lowest.
+
+12.
+╭──────────┬─────────────╮
+│ taskCode │ totalWeight │
+╞══════════╪═════════════╡
+│      106 │       308.0 │
+╰──────────┴─────────────╯
+Add the weights of all packages created by each task and return the task with the largest combined weight.
+
+13.
+╭─────────────────────╮
+│ nonPackingTaskCount │
+╞═════════════════════╡
+│                   3 │
+╰─────────────────────╯
+Count tasks whose associated type is anything other than packing.
+
+14.
+╭─────────────────╮
+│ itemDescription │
+╞═════════════════╡
+│ can of spam     │
+│ dried fruit     │
+│ men's coat      │
+│ sleeping bag    │
+│ tent            │
+│ women's coat    │
+╰─────────────────╯
+Use assignments to packing tasks as the record of who touched each packed item, and return items associated with fewer than three distinct volunteers across all their packages.
+
+15.
+╭───────────┬────────────╮
+│ packageId │ totalValue │
+╞═══════════╪════════════╡
+│         6 │      150.0 │
+│         2 │      151.0 │
+│         4 │      350.0 │
+│        10 │      750.0 │
+│         5 │     1420.0 │
+╰───────────┴────────────╯
+Add the value of every item quantity within each package, keep totals greater than $100, and sort them from lowest to highest.
